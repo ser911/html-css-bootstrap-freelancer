@@ -1,48 +1,290 @@
-header > .row{
-  background-color: #2c3e50;
+@media screen and (max-width:767px) {
+
+
+.dark_grey{
+  background-color: #3c4f65;
+
 }
-header p {
+
+.dark_grey p {
+  color: #fff;
+  padding: 20px 10px;
+}
+
+.b_c{
+  text-align: center;
+}
+
+.teal_C{
+  background-color: #1abc9c;
+}
+.teal_C h1, .teal_C h3{
 color: #fff;
+margin-bottom: 25px;
 }
 
-@media screen and (max-width:768px) {
-
-header{
-  min-height: 100px;
+.teal_C hr{
+  width: 50%;
+  margin: 0 auto;
 }
 
-  p{
-   padding-bottom: 20px;
-   vertical-align: middle;
+.b_c > .big_circle{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #2c3e50;
+  margin: 50px auto 25px;
+}
+
+
+.second_title hr{
+width: 30%;
+margin: 25px auto;
+border: 3px solid black;
+border-radius: 5px;
+}
+
+
+.purple_pink,
+.cold_blue,
+._black,
+.sky_blue,
+.dark_blue,
+._sand {
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+
+.purple_pink > .huge_circle,
+.cold_blue > .huge_circle,
+._black > .huge_circle,
+.sky_blue > .huge_circle,
+.dark_blue > .huge_circle,
+._sand > .huge_circle {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  background-color: #2c3e50;
+  margin: 50px auto;
+
+}
+
+
+.purple_pink {
+  background-color: #a9294f;
+}
+
+.cold_blue{
+  background-color: #6f9eaf;
+}
+._black{
+  background-color: #000;
+}
+
+.sky_blue{
+  background-color: #23689b;
+}
+
+.dark_blue{
+  background-color: #09015f;
+}
+
+._sand{
+  background-color: #c19277;
+}
+
+
+.sea_green{
+  width: 100%;
+  background-color: #1abc9c;
+  text-align: center;
+  padding: 20px 80px;
+}
+
+.sea_green > h3, .sea_green > p{
+  color: #fff;
+
+}
+
+.sea_green > hr {
+  border: 3px solid #fff;
+  width: 20%;
+  margin: 25px auto;
+  border-radius: 5px;
+}
+
+footer h3, footer span{
+  color: #2c3e50;
+}
+footer span{
+  display: block;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+footer h4{
+  color: #fff;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.grey_black{
+  background-color: #343a40;
+}
+.grey_black h6{
+  color: #fff;
+  padding: 15px;
+}
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+   header .container{
+    width: 100%;
+  }
+
+  .dark_grey{
+    background-color: #3c4f65;
 
   }
 
-#top_banner{
-  background-color: #1abc9c;
-  min-height: 300px;
+  .dark_grey p {
+    color: #fff;
+    padding: 20px 30px;
+  }
+
+  .b_c{
+    text-align: center;
+  }
+
+  .teal_C{
+    background-color: #1abc9c;
+  }
+  .teal_C h1, .teal_C h3{
+  color: #fff;
+  margin-bottom: 25px;
+  }
+
+  .teal_C hr{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .b_c > .big_circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #2c3e50;
+    margin: 50px auto 25px;
+  }
+
+
+  .second_title hr{
+  width: 30%;
+  margin: 25px auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  }
+
+
+.small_cont{
 
 }
-.main_pic {
-  background-color: #2c3e50;
-  height: 90px;
-  width: 90px;
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  .purple_pink,
+  .cold_blue,
+  ._black,
+  .sky_blue,
+  .dark_blue,
+  ._sand {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    }
+  .cold_blue,
+  .sky_blue,
+  ._sand{
+    margin-left: 15px;
+  }
+
+
+  .purple_pink > .huge_circle,
+  .cold_blue > .huge_circle,
+  ._black > .huge_circle,
+  .sky_blue > .huge_circle,
+  .dark_blue > .huge_circle,
+  ._sand > .huge_circle {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background-color: #2c3e50;
+    margin: 50px auto;
+
+  }
+
+
+  .purple_pink {
+    background-color: #a9294f;
+  }
+
+  .cold_blue{
+    background-color: #6f9eaf;
+  }
+  ._black{
+    background-color: #000;
+  }
+
+  .sky_blue{
+    background-color: #23689b;
+  }
+
+  .dark_blue{
+    background-color: #09015f;
+  }
+
+  ._sand{
+    background-color: #c19277;
+  }
+
+
+  .sea_green{
+    width: 100%;
+    background-color: #1abc9c;
+    text-align: center;
+    padding: 20px 80px;
+  }
+
+  .sea_green > h3, .sea_green > p{
+    color: #fff;
+
+  }
+
+  .sea_green > hr {
+    border: 3px solid #fff;
+    width: 20%;
+    margin: 25px auto;
+    border-radius: 5px;
+  }
+
+  footer h3, footer span{
+    color: #2c3e50;
+  }
+  footer span{
+    display: block;
+    padding-bottom: 15px;
+    font-size: 20px;
+  }
+  footer h4{
+    color: #fff;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .grey_black{
+    background-color: #343a40;
+  }
+  .grey_black h6{
+    color: #fff;
+    padding: 15px;
+  }
 
 }
-
-
-hr{
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 10px;
-}
-
-
-
-
-
+@media screen and (min-width:992px) {
 
 }
