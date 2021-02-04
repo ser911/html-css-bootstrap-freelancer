@@ -51,6 +51,7 @@ border-radius: 5px;
 .sky_blue,
 .dark_blue,
 ._sand {
+  width: 60%;
   margin: 0 auto 15px;
   border-radius: 5px;
   padding: 5px 0;
