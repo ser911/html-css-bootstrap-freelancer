@@ -51,8 +51,10 @@ border-radius: 5px;
 .sky_blue,
 .dark_blue,
 ._sand {
-  margin-bottom: 25px;
+  margin: 0 auto 15px;
   border-radius: 5px;
+  padding: 5px 0;
+
 }
 
 
@@ -198,6 +200,7 @@ footer h4{
   ._sand {
     margin-bottom: 10px;
     border-radius: 5px;
+    padding: 10px 0;
     }
 
 
@@ -348,6 +351,7 @@ footer h4{
  ._sand {
    margin-bottom: 25px;
    border-radius: 5px;
+   padding: 15px 0;
    }
 
 
